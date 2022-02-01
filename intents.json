@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Hope to see you soon!", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Are you vegan / vegetarian?", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We have delicious pizzas, salads, and cheescakes!", "You should try our pizza, salads, and for dessert: cheescake!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 1pm-11pm!"],
+         "context_set": ""
+        },
+        {"tag": "location",
+        "patterns": ["what's your address", "where are you located", "what is your location"],
+        "responses": ["We are at Av. Patria 123"],
+        "context_set": ""
+        }
+   ]
+}
